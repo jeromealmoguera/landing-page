@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Red Hat Display";
+}
+
+header {
+	padding: 15px;
+	min-height: 40px;
+	background-color: cornflowerblue;
+}
+
+ul {
+	gap: 30px;
+	display: flex;
+	list-style: none;
+	align-items: center;
+	padding: 0 150px 0 150px;
+}
+
+.head-logo {
+	font-size: 40px;
+	font-weight: 700;
+	margin-right: auto;
+	font-family: Grandstander;
+}
+
+.main {
+	background-color: rgb(90, 54, 20);
+	min-height: 750px;
+}
