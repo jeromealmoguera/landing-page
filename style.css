@@ -4,7 +4,7 @@
 	font-family: "Red Hat Display";
 }
 
-header {
+.heading {
 	padding: 15px;
 	min-height: 40px;
 	background-color: cornflowerblue;
@@ -27,5 +27,5 @@ ul {
 
 .main {
 	background-color: rgb(90, 54, 20);
-	min-height: 750px;
+	min-height: 800px;
 }
