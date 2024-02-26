@@ -1,3 +1,5 @@
+/* UNIVERSAL */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -17,6 +19,8 @@ ul {
 	align-items: center;
 	padding: 0 150px 0 150px;
 }
+
+/* HEADING */
 
 .head-logo {
 	font-size: 40px;
