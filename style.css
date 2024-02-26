@@ -6,7 +6,7 @@
 	font-family: "Red Hat Display";
 }
 
-header {
+.heading {
 	padding: 15px;
 	min-height: 40px;
 	background-color: cornflowerblue;
