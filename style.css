@@ -1,21 +1,31 @@
+/* UNIVERSAL */
+
 * {
 	margin: 0;
 	padding: 0;
 	font-family: "Red Hat Display";
 }
 
-.heading {
-	padding: 15px;
-	min-height: 40px;
-	background-color: cornflowerblue;
-}
-
 ul {
+	/* Used in HEADING */
 	gap: 30px;
 	display: flex;
 	list-style: none;
 	align-items: center;
 	padding: 0 150px 0 150px;
+}
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* HEADING */
+.heading {
+	padding: 15px;
+	min-height: 40px;
+	background-color: rgb(4, 57, 155);
 }
 
 .head-logo {
@@ -25,7 +35,58 @@ ul {
 	font-family: Grandstander;
 }
 
+/* MAIN */
 .main {
-	background-color: rgb(90, 54, 20);
-	min-height: 800px;
+	background-color: rgb(221, 220, 209);
+	height: 750px;
+	max-height: 750px;
+	justify-content: center;
+	align-items: center;
+
+	/* padding: 50%; */
+	display: flex;
+	gap: 30px;
+}
+
+.main-left {
+	padding: 10px;
+	width: 40%;
+
+	/* background-color: rgb(54, 56, 21); */
+	height: 70%;
+}
+
+.left-heading {
+	line-height: 1.2;
+	font-weight: 400;
+	letter-spacing: -5px;
+	font-size: 85px;
+	font-family: Grandstander;
+}
+
+.left-heading-bold {
+	font-family: Grandstander;
+	font-weight: 800;
+}
+
+.left-sub {
+	font-size: 25px;
+}
+
+.main-btn {
+	margin-top: 5%;
+	border: none;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px 50px 10px 50px;
+	border-radius: 100px;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(107, 76, 35);
+}
+
+.main-right {
+	width: 40%;
+	height: 70%;
+	background-color: rgb(5, 77, 29);
 }
