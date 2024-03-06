@@ -15,6 +15,15 @@ ul {
 	padding: 0 150px 0 150px;
 }
 
+a:hover,
+a:visited,
+a:link,
+a:active {
+	text-decoration: none;
+	color: unset;
+	cursor: pointer;
+}
+
 * {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -35,7 +44,7 @@ ul {
 	font-family: Grandstander;
 }
 
-/* MAIN */
+/** MAIN **/
 .main {
 	background-color: rgb(221, 220, 209);
 	height: 750px;
@@ -93,4 +102,47 @@ ul {
 	background-repeat: no-repeat;
 	background-image: url(images/lomi.jpg);
 	background-color: rgb(5, 77, 29);
+}
+
+/** MIDDLE **/
+
+.mid {
+	background-color: burlywood;
+
+	padding: 3%;
+	height: 750px;
+	max-height: 600px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mid-h {
+	font-size: 50px;
+}
+
+.mid-content {
+	display: flex;
+	background-color: brown;
+}
+
+.mid-recp {
+	text-align: center;
+	height: 450px;
+	width: 400px;
+	padding: 50px;
+	/* background-color: rgb(121, 113, 14); */
+	overflow: hidden;
+}
+
+.mid-img {
+	min-width: 280px;
+	min-height: 280px;
+	object-fit: cover;
+}
+
+.recp-name {
+	margin-top: 5px;
+	font-size: 25px;
+	font-weight: 500;
 }
