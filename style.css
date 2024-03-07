@@ -34,7 +34,9 @@ a:active {
 .heading {
 	padding: 15px;
 	min-height: 40px;
-	background-color: rgb(4, 57, 155);
+	background-color: rgb(107, 76, 35);
+
+	color: white;
 }
 
 .head-logo {
@@ -46,7 +48,7 @@ a:active {
 
 /** MAIN **/
 .main {
-	background-color: rgb(221, 220, 209);
+	background-color: rgb(212, 201, 184);
 	height: 750px;
 	max-height: 750px;
 	justify-content: center;
@@ -89,7 +91,7 @@ a:active {
 	font-size: 22px;
 	height: 50px;
 	width: 150px;
-	border-radius: 20px;
+	border-radius: 15px;
 	color: white;
 	cursor: pointer;
 	background-color: rgb(107, 76, 35);
@@ -107,7 +109,7 @@ a:active {
 /** MIDDLE **/
 
 .mid {
-	background-color: burlywood;
+	background-color: rgb(221, 220, 209);
 
 	padding: 3%;
 	height: 750px;
@@ -123,7 +125,6 @@ a:active {
 
 .mid-content {
 	display: flex;
-	background-color: brown;
 }
 
 .mid-recp {
@@ -145,4 +146,97 @@ a:active {
 	margin-top: 5px;
 	font-size: 25px;
 	font-weight: 500;
+}
+
+/** QUOTE **/
+
+.qoute-con {
+	background-color: rgb(212, 201, 184);
+
+	padding: 150px;
+	min-height: 500px;
+	max-height: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.qoute {
+	font-size: 30px;
+	text-align: justify;
+}
+
+.qoute-name {
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: 700;
+	margin-right: 10px;
+	font-style: italic;
+	align-self: flex-end;
+	/* background-color: chartreuse; */
+}
+
+/** CALL TO ACTION **/
+
+.call {
+	background-color: rgb(221, 220, 209);
+
+	/* padding: 150px; */
+	min-height: 400px;
+	max-height: 400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.call-box {
+	background-color: rgb(212, 201, 184);
+
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 150px;
+	width: 80em;
+	height: 10em;
+	/* border-radius: 50px; */
+}
+
+.call-box-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.call-head {
+	font-size: 30px;
+	font-weight: 500;
+
+	font-family: Grandstander;
+}
+
+.call-btn {
+	border: none;
+	text-decoration: none;
+	/* padding: 10px 50px 10px 50px; */
+	font-size: 22px;
+	height: 50px;
+	width: 150px;
+	border-radius: 15px;
+	color: white;
+	cursor: pointer;
+	background-color: rgb(107, 76, 35);
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 120px;
+	background-color: rgb(107, 76, 35);
+}
+
+.footer-p {
+	color: white;
 }
